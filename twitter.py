@@ -50,10 +50,10 @@ class AcessoTwitter(object):
     def api_login(auth_dict=None):
         if auth_dict is None:
             auth_dict = {
-                'consumer_key': 'vs5BJztJ1FdyPCr8oIKtAuDIW',
-                'consumer_secret': 'p8ZAlLZxB5CDhMVmsSRjMuQKGkl84bu02Exuc4fKfIM9dX9ScC',
-                'access_key': '989147935903502336-ED2ZFnu4GVUEtKUwwYQN3aAXiBOVIEY',
-                'access_secret': 'RasIM5UNBClxbm7zsuGqydFi7hdPvVwLzpMhBXm9TI7yA'
+                'consumer_key': '',
+                'consumer_secret': '',
+                'access_key': '',
+                'access_secret': ''
             }
         auth = tweepy.OAuthHandler(auth_dict['consumer_key'], auth_dict['consumer_secret'])
         auth.set_access_token(auth_dict['access_key'], auth_dict['access_secret'])
